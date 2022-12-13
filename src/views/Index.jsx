@@ -15,7 +15,11 @@ import News from "../components/News";
 import Windy from "../components/Windy";
 
 // list
-import Example from "../assets/lists/list.example";
+import List1 from "../assets/lists/list1.jsx";
+import List2 from "../assets/lists/list2.jsx";
+import List3 from "../assets/lists/list3.jsx";
+import List4 from "../assets/lists/list4.jsx";
+import List5 from "../assets/lists/list5.jsx";
 
 // assets
 import desert from "../assets/img/desert.mp4"
@@ -41,7 +45,7 @@ export default function Index() {
           </div>
           <div class="bg-blue3 text-black rounded-xl col-span-2 h-36 w-80 shadow-4xl dark:shadow-none border-0 dark:border-4 dark:border-off-white2"><SearchBox /></div>
           <div class="bg-blue3 rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none border-0 dark:border-4 dark:border-off-white2 overflow-y-auto">
-            <Example />
+            <List1 />
           </div>
           <div class="bg-off-white1 text-black rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none"><Unsplash /></div>
           <div class="bg-green2 dark:bg-green1 text-black rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none border-0 dark:border-4 dark:border-off-white2"><WeatherBox /></div>
@@ -49,7 +53,7 @@ export default function Index() {
           {/* row 2 */}
           <div class="bg-off-white1 text-black rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none"><Unsplash /></div>
           <div class="bg-blue3 text-black rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none border-0 dark:border-4 dark:border-off-white2 overflow-y-auto">
-            <Example />
+            <List2 />
           </div>
           <div class="overflow-hidden rounded-xl col-span-3 row-span-2 h-80 shadow-4xl dark:shadow-none ">
             <Windy />
@@ -58,7 +62,7 @@ export default function Index() {
 
           {/* row 3 */}
           <div class="bg-blue3 text-black rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none border-0 dark:border-4 dark:border-off-white2 overflow-y-auto">
-            <Example />
+            <List3 />
           </div>
           <div class="bg-[#000000] rounded-xl col-span-2 row-span-2 shadow-4xl dark:shadow-none border-0 dark:border-4 dark:border-off-white2"><SolarGraph /></div>
           <div class="bg-blue3 text-black rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none border-0 dark:border-4 dark:border-off-white2 overflow-y-auto">
@@ -67,7 +71,7 @@ export default function Index() {
 
           {/* row 4 */}
           <div class="bg-blue3 rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none border-0 dark:border-4 dark:border-off-white2 overflow-y-auto">
-            <Example />
+            <List4 />
           </div>
           <div class="bg-off-white1 text-black rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none"><Unsplash /></div>
           <div class="flex items-center justify-center bg-blue3 text-white rounded-xl col-span-1 h-36 w-36 shadow-4xl dark:shadow-none border-0 dark:border-4 dark:border-off-white2">
