@@ -15,4 +15,4 @@ class List1 extends React.Component {
   }
 }
 
-export default List1" > src/assets/lists/list1.jsx
+export default "List1" > src/assets/lists/list1.jsx
