@@ -13,4 +13,4 @@ class List4 extends React.Component {
   }
 }
 
-export default List4" > src/assets/lists/list4.jsx
+export default "List4" > src/assets/lists/list4.jsx
