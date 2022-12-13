@@ -15,4 +15,4 @@ class List2 extends React.Component {
   }
 }
 
-export default List2" > src/assets/lists/list2.jsx
+export default "List2" > src/assets/lists/list2.jsx
