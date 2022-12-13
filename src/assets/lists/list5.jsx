@@ -13,4 +13,4 @@ class List5 extends React.Component {
   }
 }
 
-export default List5" > src/assets/lists/list5.jsx
+export default "List5" > src/assets/lists/list5.jsx
