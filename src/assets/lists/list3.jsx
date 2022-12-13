@@ -14,4 +14,4 @@ class List3 extends React.Component {
   }
 }
 
-export default List3" > src/assets/lists/list3.jsx
+export default "List3" > src/assets/lists/list3.jsx
